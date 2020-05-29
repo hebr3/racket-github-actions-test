@@ -17,4 +17,4 @@
 (module+ test
   (require rackunit)
   (check-equal? (stream->list (stream-take (fibs) 8))
-                '(1 1 2 3 5 8 13 22)))
+                '(1 1 2 3 5 8 13 21)))
